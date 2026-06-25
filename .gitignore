@@ -1,0 +1,7 @@
+packwiz
+*.exe
+*.bat
+*.jar
+*.url
+# Exclude exported Modrinth modpacks
+*.mrpack
