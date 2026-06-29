@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/immediatelyfast.json"
+hash = "8cc7c7abb485d30acd5ee080c87f3fbb5c5138c9751de9140d9a464981a68629"
+
+[[files]]
+file = "config/immersive_optimization.json"
+hash = "d7cbbc8505532ed27d9f2949b0b858fa0d0a4960e5b306e93df4e03800aac783"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "99c43ea78599184fe003e52a36032c2897bb3c5b52551a496582f588b9fba6fe"
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
 metafile = true
