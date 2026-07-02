@@ -1740,11 +1740,6 @@ hash = "0151bb1c713181b017280343e3345498ed4de582444f1e7df1093283345efb81"
 metafile = true
 
 [[files]]
-file = "mods/shadered.pw.toml"
-hash = "2ce8789b4e9a56e276033a574b8e0359c05fa9fde809510177c975d458d83fad"
-metafile = true
-
-[[files]]
 file = "mods/shield-expansion.pw.toml"
 hash = "6b5a046731821cd75fd896e0f9d03282884ca8c111a8cf131df977e2fdd20de6"
 metafile = true
