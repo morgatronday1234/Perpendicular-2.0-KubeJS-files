@@ -13,6 +13,10 @@ file = "config/modernfix-mixins.properties"
 hash = "99c43ea78599184fe003e52a36032c2897bb3c5b52551a496582f588b9fba6fe"
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "da7e1c4582ca1e6c724fe8d36e25a4e23bc16d66aaf788108481784eb1655fa5"
+
+[[files]]
 file = "mods/aether-emissivity.pw.toml"
 hash = "1346fdc1616b436f9b590cef54d2b61c11ddc3cb4d70266d201cc2f67558f7bd"
 metafile = true
