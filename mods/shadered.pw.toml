@@ -1,0 +1,13 @@
+name = "Shadered"
+filename = "shadered-1.21.1-1.5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53b92b2895390f16df151d102d4e25ca37ee800b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8199513
+project-id = 1158056

@@ -1,0 +1,13 @@
+name = "Pulsetech"
+filename = "pulsetech-1.21.1-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cda5c7052f6ba724ef34c4c9a90062d54cd30b18"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8181264
+project-id = 1460255

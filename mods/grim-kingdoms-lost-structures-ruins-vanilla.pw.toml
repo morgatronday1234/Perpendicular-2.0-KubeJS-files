@@ -1,0 +1,13 @@
+name = "Grim kingdoms: Vanilla Edition"
+filename = "grim-kingdoms-lost-structures-ruins-vanilla-edition-v1.0.0 1.21+.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "172d139b65629866c174d136aa46950923ef4d3f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7897154
+project-id = 1508633

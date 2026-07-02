@@ -1,0 +1,13 @@
+name = "Dice Rebuild"
+filename = "dice-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c34f909d7a54c195b22604eec89b0effb9a4866e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7360789
+project-id = 1186181

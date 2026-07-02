@@ -1,0 +1,13 @@
+name = "Create: Extra Casing"
+filename = "create_extra_casing-4.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8560d1568f4febdaacce55df72949e949c888f22"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6944498
+project-id = 1192187

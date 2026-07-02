@@ -1,0 +1,13 @@
+name = "Kenja's Walkman"
+filename = "kenja_walkman-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "056dbf4fcb8612647fceb80eeb208255ddfaa07e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7834042
+project-id = 1481618
