@@ -1,0 +1,13 @@
+name = "Kube Utils"
+filename = "kube-utils-21.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a590975909fa2381d873fb94fff927a09609393b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7210381
+project-id = 678815

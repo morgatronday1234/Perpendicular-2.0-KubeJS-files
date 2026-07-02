@@ -1,0 +1,13 @@
+name = "Holdable Frogs"
+filename = "holdable-frogs-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XOSn0Rtx/versions/ugV0tO9M/holdable-frogs-1.2.0.jar"
+hash-format = "sha512"
+hash = "6e3bdee6f84c3fd9309530797a3a79e666980ad24fc6d6a5c920227ede71058d581559990802549ea615c6b83807090ade84eea5abe3bdfc95edb2daaf1cf603"
+
+[update]
+[update.modrinth]
+mod-id = "XOSn0Rtx"
+version = "ugV0tO9M"

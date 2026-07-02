@@ -1,0 +1,13 @@
+name = "Note Block Tuner"
+filename = "NoteBlockTuner-1.0.0-1.21.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5vF20eac/versions/ZnW1SUrz/NoteBlockTuner-1.0.0-1.21.0.jar"
+hash-format = "sha512"
+hash = "c333a84480eb0e89dd62fd19e95c10ff0a3742b916f407b50c90c5a036d8c90a13edf31b6edc30e923f68816439a5239fc2b777f1f2fbccabdc50b2466afa3c7"
+
+[update]
+[update.modrinth]
+mod-id = "5vF20eac"
+version = "ZnW1SUrz"

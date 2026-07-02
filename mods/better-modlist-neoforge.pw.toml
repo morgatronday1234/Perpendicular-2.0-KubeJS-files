@@ -1,0 +1,12 @@
+name = "Better Modlist"
+side = "client"
+filename = "better_modlist-1.1.22.jar"
+
+[update.curseforge]
+file-id = 7711471
+project-id = 1089803
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "c5c49876cf0e036c631b0909fed6903d7e28cc45"

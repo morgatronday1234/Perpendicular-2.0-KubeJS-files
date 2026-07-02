@@ -1,0 +1,13 @@
+name = "Sneak Through Berries"
+filename = "sneak_through_berries-neoforge-21.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c82cceb183168d0996ea327d1ed63d3ed4b6cc30"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6564983
+project-id = 324945
