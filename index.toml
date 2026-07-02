@@ -25,6 +25,10 @@ file = "config/resourcepackoverrides.json"
 hash = "9450ae940d12813c215741cdde67a6430f4a41d0933e88e8d0ef3fc4fccc8903"
 
 [[files]]
+file = "kubejs/server_scripts/remove_maps_from_nml_pots.js"
+hash = "510751f8aa5849c5c8542dc8d013ba33d25bdb6bbf8f854c0b7c00b69bac01d3"
+
+[[files]]
 file = "mods/abnormals-delight.pw.toml"
 hash = "56700c848266c1b129a324e285db6ad16ed19fc33f91aea9268659350bddeef7"
 metafile = true
