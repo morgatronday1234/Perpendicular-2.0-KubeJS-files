@@ -180,6 +180,11 @@ hash = "8b4cb33940d2a5771439131c9b80d68b099efaf5c957ced3ab5ba6c59a0e85ae"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "3595ba816c9ef014350d0072b90715d99cda633c0b3c8aee7a64ce3402ade5de"
+metafile = true
+
+[[files]]
 file = "mods/bartering-station.pw.toml"
 hash = "802f1fb3e56bb2d177c61e68dde1fc15e6a047fd8ebb00ceed363607488887bc"
 metafile = true
@@ -282,6 +287,11 @@ metafile = true
 [[files]]
 file = "mods/bobby.pw.toml"
 hash = "68c030ff172e20d3f92245323341db73b4d572b4a6249ff27622d3cef1fa79c5"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
 
 [[files]]
@@ -417,6 +427,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "e3d0e6da51df08d87c9b88fd6b4011de711d95497263b9ecfd1466cbd34b98d5"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+hash = "8ff227007d3ea2f499193f04410000892bcc35b87572ae74d3f19494c6572368"
 metafile = true
 
 [[files]]
@@ -1145,6 +1160,11 @@ hash = "8661d466c10159c43b416499ebdea7e15f51746ca659ea5580ad4ea75130eb1e"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "e8ad4c0b1a01858f6d653672472641f24aeacf7d6fb3b63a4358157312381a76"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
 metafile = true
@@ -1287,6 +1307,11 @@ metafile = true
 [[files]]
 file = "mods/mega-cells.pw.toml"
 hash = "e551caa3f5272461a2c64b948499434fad21854f5edc6750ed9e432174d9d33f"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "e635a58d0448e7b3a28c5446ba3173be975ff323bc5a50546d33beb33c883492"
 metafile = true
 
 [[files]]
@@ -1575,6 +1600,11 @@ hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
+metafile = true
+
+[[files]]
 file = "mods/productivebees.pw.toml"
 hash = "41dac4cfe4b1e055cbaa5d26568b97987e5166af5873e954c125e0b969a265d8"
 metafile = true
@@ -1665,6 +1695,11 @@ hash = "168b1267f867490db2bb885b5b186baf42e0db803c55f0e54d99857c13a083fd"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
+metafile = true
+
+[[files]]
 file = "mods/ribbits.pw.toml"
 hash = "5d1a0fefc09545d23a75f37a7cd8b7dcf817a7a57fe28f1419b19be92476dcaa"
 metafile = true
@@ -1727,6 +1762,11 @@ metafile = true
 [[files]]
 file = "mods/seamless.pw.toml"
 hash = "6f636ac7d482eba6fa2c4c66f4531a2877e8a353a04413f7bb9caf3f9fa318d4"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "920774c9d10a055786752626745c9a81b45f26236c67269f6a03e2773223b4e8"
 metafile = true
 
 [[files]]
