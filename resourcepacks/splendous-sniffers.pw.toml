@@ -1,0 +1,13 @@
+name = "Splendous Sniffers"
+filename = "Splendous Sniffers.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "c6e0b3ef191a57f06d1769b18d4046f60c9d561d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5299524
+project-id = 1010558
