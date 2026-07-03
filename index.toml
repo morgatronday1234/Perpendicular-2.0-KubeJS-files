@@ -339,11 +339,6 @@ hash = "b241d3e079220375ca7da148a070b5c08e8e3fff9097f628c843f36e6f37ef5d"
 metafile = true
 
 [[files]]
-file = "mods/caverns-and-chasms.pw.toml"
-hash = "2d01d1bc5328516d35374f51eab2fd4558035528f8d98143a77fa421e776f4a0"
-metafile = true
-
-[[files]]
 file = "mods/cc-sable.pw.toml"
 hash = "9b8211d6db388c8f289d7134f584ed817b24a3ab202857e0f631a5c168972095"
 metafile = true
@@ -1159,11 +1154,6 @@ hash = "e15a2be839f2039ffb594185565644f9b81595dfd1152891b9e85b531fb55ae2"
 metafile = true
 
 [[files]]
-file = "mods/kenjas-walkman.pw.toml"
-hash = "8661d466c10159c43b416499ebdea7e15f51746ca659ea5580ad4ea75130eb1e"
-metafile = true
-
-[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "e8ad4c0b1a01858f6d653672472641f24aeacf7d6fb3b63a4358157312381a76"
 metafile = true
@@ -1821,11 +1811,6 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "95ac868355ac97c74762a7f5295aa618bc9f67fb6b1ab1009f6a0d9c42efeae2"
-metafile = true
-
-[[files]]
-file = "mods/slime-bounce.pw.toml"
-hash = "0734f322ca6e3bb89fd828f2c7ab2eb1650e788a2a63d0ec380c5446b324640e"
 metafile = true
 
 [[files]]
