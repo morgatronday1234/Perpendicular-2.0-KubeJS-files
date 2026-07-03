@@ -1,0 +1,13 @@
+name = "EndPortalRenderFix"
+filename = "endportalfix-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rtdfmSai/versions/uaS4Qeh8/endportalfix-1.0.0.jar"
+hash-format = "sha512"
+hash = "c336228953a818d3e1008f21eebda4b1df5dc3f0c5e75b7f0f130dbfb4142a69542cdf100f4ae6cf046337160dfd4cf729f784738d4dad458be39c51a83654a4"
+
+[update]
+[update.modrinth]
+mod-id = "rtdfmSai"
+version = "uaS4Qeh8"

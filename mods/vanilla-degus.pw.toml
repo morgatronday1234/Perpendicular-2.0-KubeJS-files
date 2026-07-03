@@ -1,0 +1,13 @@
+name = "Vanilla Degus"
+filename = "vanilla_degus-1.21-v1.5.2-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9764641fcb61bcd6ef2e00fbcec95ac2fc8df1f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7799854
+project-id = 463073

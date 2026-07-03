@@ -1,0 +1,13 @@
+name = "Applied History"
+filename = "appliedhistory-1.21.1-neo-0.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47c9a51a985af31ad80cc3448e3d5cdeba615b31"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8087505
+project-id = 1537153

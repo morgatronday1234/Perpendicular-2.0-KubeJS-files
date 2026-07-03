@@ -1,0 +1,13 @@
+name = "Haunted Harvest"
+filename = "hauntedharvest-neoforge-1.21-3.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "83eefc0dd27fabdaecff6cd99795de59c2799b96"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8332283
+project-id = 541753

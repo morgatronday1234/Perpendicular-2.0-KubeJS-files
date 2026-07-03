@@ -1,0 +1,53 @@
+name: Bug Report
+description: Report an issue with Perpendicular in its unmodified state. For other issues, use Discord.
+labels: bug
+body:
+- type: markdown
+  attributes:
+    value: |
+      Before reporting a bug, [please search](https://github.com/ParallelMC/Perpendicular-2.0/issues) to make sure it hasn't already been reported. 
+
+- type: input
+  attributes:
+    label: Modpack Version
+    description: What version of Perpendicular are you using?
+    placeholder: Find it in the bottom left corner of the main menu.
+  validations:
+    required: true
+
+- type: dropdown
+  attributes:
+    label: Launcher
+    description: Which launcher are you using?
+    options:
+      - CurseForge App
+      - Minecraft Launcher (vanilla)
+      - Prism Launcher
+      - MultiMC
+      - ATLauncher
+      - Other (specify in the bug description)
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Describe the bug
+    description: Describe your issue in a clear and concise way.
+  validations:
+    required: true
+
+- type: checkboxes
+  attributes:
+    label: Confirm
+    options:
+      - label: This bug report is about an issue with the modpack itself. I have not modified the mods nor added any resource packs. If this is not the case, I know that I should post the issue in the \#perpendicular channel in the [ParallelMC Discord server.](https://discord.parallelmc.org)
+        required: true
+    
+- type: textarea
+  attributes:
+    label: Additional Context
+    description: Screenshots, video, or any other information. If it is a crash, please post your log file to [mclo.gs](https://mclo.gs/) and add a link here.
+    placeholder: |
+      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false

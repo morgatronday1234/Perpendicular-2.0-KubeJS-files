@@ -1,0 +1,13 @@
+name = "Aether Addon: Beyond Parity"
+filename = "aether_beyond_parity-1.21.1-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8947121bdac7d94504c628aef8b88c36bbd642e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7062320
+project-id = 1341330

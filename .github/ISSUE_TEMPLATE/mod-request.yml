@@ -1,0 +1,44 @@
+name: Mod Request
+description: Request a mod to be added to the pack.
+labels: mod request
+body:
+- type: markdown
+  attributes:
+    value: |
+      Before requesting a mod, [please search](https://github.com/ParallelMC/Perpendicular-2.0/issues) to make sure it hasn't already been requested. Also, if you want to pitch your mod idea to others, head to the [ParallelMC Discord server!](https://discord.parallelmc.org)
+
+- type: input
+  attributes:
+    label: Link to Mod
+    description: Use a CurseForge link if the mod has one. Otherwise, paste the non-CurseForge link.
+    placeholder: Paste the link to the mod here.
+  validations:
+    required: true
+
+- type: checkboxes
+  attributes:
+    label: Compatibility Confirmation
+    options:
+      - label: This mod is compatible with NeoForge 1.21.1 (or Fabric 1.21.1, and I have tested it on NeoForge 1.21.1 with Sinytra Connector). If it isn't, I should close this mod request or request a similar mod that is compatible.
+        required: true    
+
+- type: textarea
+  attributes:
+    label: What does the mod do?
+    description: Give us a short description of the mod's features.
+  validations:
+    required: true     
+
+- type: textarea
+  attributes:
+    label: Why should the mod be added?
+    description: Make sure the mod doesn't overlap too much with an existing mod in the pack!
+  validations:
+    required: true 
+
+- type: textarea
+  attributes:
+    label: Additional Details
+    description: Anything else you want to add?
+  validations:
+    required: false      

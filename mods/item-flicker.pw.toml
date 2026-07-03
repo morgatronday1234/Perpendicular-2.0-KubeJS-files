@@ -1,0 +1,12 @@
+name = "Item Flicker"
+side = "client"
+filename = "itemflicker-neoforge-1.0.0-1.21.1.jar"
+
+[update.curseforge]
+file-id = 7385333
+project-id = 1414528
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "5df4b5466f4ff78e6ef01ecfb58ef336c01fe6f6"

@@ -1,0 +1,13 @@
+name = "Farmer's Respite (Unofficial Port)"
+filename = "farmersrespite-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "43e6adcc11cbc32a9705bfe69f98603288dc3276"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8199080
+project-id = 1475195

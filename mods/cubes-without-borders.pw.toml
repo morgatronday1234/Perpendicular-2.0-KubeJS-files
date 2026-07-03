@@ -1,0 +1,12 @@
+name = "Cubes Without Borders"
+side = "client"
+filename = "cwb-neoforge-3.0.0+mc1.21.jar"
+
+[update.curseforge]
+file-id = 5855532
+project-id = 975120
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "6fe849c4a488107572c9af9d7d8329d93376f343"

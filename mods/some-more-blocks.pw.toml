@@ -1,0 +1,13 @@
+name = "Some More Blocks"
+filename = "SomeMoreBlocks@neoforge-1.21-1.1.5-HF.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "920d9c61960c8d0bb3cd38cd84f6caadb000b6ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7221496
+project-id = 982529

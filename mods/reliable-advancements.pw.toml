@@ -1,0 +1,13 @@
+name = "Reliable Advancements"
+filename = "reliable_advancements-neoforge-1.21.1-4.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca447de57685f22b00e419408c045659b90616b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8308483
+project-id = 1527472

@@ -1,0 +1,13 @@
+name = "Armor Trim Item Fix"
+filename = "ArmorTrimItemFix-neoforge-1.21.1-1.2.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "1ff65aafa4c12f4970c4d2e922b65c027ff593a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5924310
+project-id = 895603

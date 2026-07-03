@@ -1,0 +1,12 @@
+name = "Bobby"
+side = "client"
+filename = "bobby-5.2.4+mc1.21.jar"
+
+[update.curseforge]
+file-id = 5661558
+project-id = 409301
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "dfa517fdb6e3fd2893f5d40f2c06cf01fb2a5db1"

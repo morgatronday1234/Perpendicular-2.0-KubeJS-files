@@ -1,0 +1,12 @@
+name = "Purpura Skies: Xaero's Minimap Frame"
+side = "client"
+filename = "PS Shielded - Xaero Frame 1.0.0.zip"
+
+[update.curseforge]
+file-id = 5591048
+project-id = 1076509
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "15ceefc8f79cf1d2ce4599f928fa6aaf826662da"

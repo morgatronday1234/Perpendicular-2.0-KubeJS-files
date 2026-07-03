@@ -1,0 +1,13 @@
+name = "Wayfinder"
+filename = "Wayfinder-NeoForge-1.2.0-mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "15951dccaa9b866c95c33e71701c6f6f483fb63c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8282425
+project-id = 1204282

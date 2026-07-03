@@ -1,0 +1,36 @@
+name: Feature Request
+description: Request a feature to be added, changed, or removed.
+labels: feature request
+body:
+- type: markdown
+  attributes:
+    value: |
+      Before requesting a feature, [please search](https://github.com/ParallelMC/Perpendicular-2.0/issues) to make sure it hasn't already been requested. Also, if you want to pitch your feature idea, head to the [ParallelMC Discord server!](https://discord.parallelmc.org)
+
+- type: checkboxes
+  attributes:
+    label: Confirm
+    options:
+      - label: I am not requesting a mod to be added. If I am, I should close this page and open a mod request issue instead.
+        required: true    
+
+- type: textarea
+  attributes:
+    label: What feature do you want added/changed/removed?
+    description: Give us a short description of what you would like to see.
+  validations:
+    required: true     
+
+- type: textarea
+  attributes:
+    label: Why should this feature be added/changed/removed?
+    description: Make sure the feature doesn't overlap with an existing feature in the pack!
+  validations:
+    required: true 
+
+- type: textarea
+  attributes:
+    label: Additional Details
+    description: Anything else you want to add?
+  validations:
+    required: false      

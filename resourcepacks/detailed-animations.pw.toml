@@ -1,0 +1,13 @@
+name = "Detailed Animations"
+side = "client"
+filename = "DetailedAnimationsReworkedXJustExpressions - V1.15.zip"
+pin = true
+
+[update.curseforge]
+file-id = 5822125
+project-id = 1019617
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "494176845f89d585869eb104b26e241c19316930"

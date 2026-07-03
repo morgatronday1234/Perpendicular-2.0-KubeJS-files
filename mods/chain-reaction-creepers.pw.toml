@@ -1,0 +1,13 @@
+name = "Chain Reaction Creepers"
+filename = "chaincreepers-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HhhIEXf6/versions/Pv2QVKEk/chaincreepers-1.0.0.jar"
+hash-format = "sha512"
+hash = "e927613dfc8449c2149272aa53a8ca19887600d3d149a8e50eb80f8b69a5805a386e74cd12e4f3a876a1d29dcd48ac3097b0bb6706426a19e628382d8547af88"
+
+[update]
+[update.modrinth]
+mod-id = "HhhIEXf6"
+version = "Pv2QVKEk"

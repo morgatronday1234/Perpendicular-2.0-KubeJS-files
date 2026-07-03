@@ -1,0 +1,13 @@
+name = "Drip Sounds"
+filename = "Drip Sounds-0.5.2+1.21.8-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66c8e4ea2bf892c82cb6aa13e546d1757895b7fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7251806
+project-id = 448311

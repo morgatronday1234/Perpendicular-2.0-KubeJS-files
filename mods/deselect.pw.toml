@@ -1,0 +1,13 @@
+name = "Deselect"
+filename = "deselect-2.0.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Nhnv41SN/versions/ZEm0GLbB/deselect-2.0.1-neoforge.jar"
+hash-format = "sha512"
+hash = "f24e5740903da4b7728e2bc1073a520c0e0a4cefc2c719a632167f85bf33e6262a1aef2f51cbb964f5fb4046124d950e0eeb2b97dd18d3b1c5f73c010cc4a314"
+
+[update]
+[update.modrinth]
+mod-id = "Nhnv41SN"
+version = "ZEm0GLbB"

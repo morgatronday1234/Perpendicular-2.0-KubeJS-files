@@ -1,0 +1,13 @@
+name = "Figura"
+filename = "figura-0.1.6+1.21.1-neoforge-mc.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8405ee52683307711961db8623201240f240f82e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8283217
+project-id = 901503

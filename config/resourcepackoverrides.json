@@ -1,0 +1,26 @@
+{
+    "schema_version": 2,
+    "default_packs": [
+        "file/DetailedAnimationsReworkedXJustExpressions - V1.15.zip",
+		"file/PS Shielded - Xaero Frame 1.0.0.zip",		
+		"file/Vibrating Wither Fix.zip",		
+        "file/Splendous Sniffers.zip",
+        "file/lanostry_foxes.zip",		
+        "file/Aether Regenerated v1.3.zip",
+		"file/mod-descriptions-v12.0.zip"
+    ],
+    "default_overrides": {
+        "force_compatible": true
+    },
+    "required_packs": [
+		"file/DetailedAnimationsReworkedXJustExpressions - V1.15.zip",
+		"file/Vibrating Wither Fix.zip",		
+        "file/Splendous Sniffers.zip",
+        "file/lanostry_foxes.zip",		
+        "file/Aether Regenerated v1.3.zip",
+		"file/mod-descriptions-v12.0.zip"
+    ],
+    "$$required_packs": {
+        "required": true
+    }
+}
