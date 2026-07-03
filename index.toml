@@ -2105,7 +2105,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/detailed-animations.pw.toml"
-hash = "19138a6ef71bf4f39bb02ee88a4dc5ee463b37f45139a3627a484208a7001d06"
+hash = "d78bf1e1053681fcd5acbfd61e756adc2fbea150db2356783a8a2c99b5c4dd90"
 metafile = true
 
 [[files]]
@@ -2120,7 +2120,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/purpura-skies-xaeros-minimap-frame.pw.toml"
-hash = "ceaf11611d2f48a38f03ccee48df9ca7e176b41ca3981df479c5c19132effed3"
+hash = "2556c0fd7520c84c394deb1baab3670f4ae9f2365ac6c145319502da1fb4c4c4"
 metafile = true
 
 [[files]]
@@ -2130,5 +2130,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/vibrating-wither-fix.pw.toml"
-hash = "d1441b1ce56a5e641f87f9f568f0bb5345ef7b1404a0c92b5e347d06e05c3407"
+hash = "c41d364f23fe58ced771e6f493ebf0fd78f904dc17f5bc768a19786066acb293"
 metafile = true

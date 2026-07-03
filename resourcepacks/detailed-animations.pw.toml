@@ -1,5 +1,5 @@
 name = "Detailed Animations"
-side = "both"
+side = "client"
 filename = "DetailedAnimationsReworkedXJustExpressions - V1.15.zip"
 pin = true
 
