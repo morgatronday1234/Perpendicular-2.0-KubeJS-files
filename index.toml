@@ -235,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-nether-map.pw.toml"
-hash = "823d504f7256c8223cd30f2617753a8e5b6dc67dd223897fd16273421ef57960"
+hash = "514481fc4f12367693f94991655a570e501c043c70064d50e39e22ef7c41519a"
 metafile = true
 
 [[files]]
@@ -1990,7 +1990,7 @@ metafile = true
 
 [[files]]
 file = "mods/village-healthcare.pw.toml"
-hash = "b4542f89d551c721c155008f23ae9bc5e83d40dbda267aa981296a12278ee1d3"
+hash = "77d9fbedc11633c5e500ef87d4aa7d52a7f671266dde8aebfdfdef71b2dcac96"
 metafile = true
 
 [[files]]
