@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(Fluid.of('pneumaticcraft:memory_essence', 240), 'ars_nouveau:greater_experience_gem').heated().id(`${MIXING_PREFIX}memory_essence_from_greater_experience_gem`)
 
     // Memory essence from other XP fluids
-    event.recipes.create.mixing(Fluid.of('pneumaticcraft:memory_essence', 1000), Fluid.of('enderio:xp_juice', 1000)).id(`${MIXING_PREFIX}memory_essence_from_xp_juice`)
+    event.recipes.create.mixing(Fluid.of('pneumaticcraft:memory_essence', 1000), Fluid.of('enderio:fluid_xp_juice_still', 1000)).id(`${MIXING_PREFIX}memory_essence_from_xp_juice`)
     event.recipes.create.mixing(Fluid.of('pneumaticcraft:memory_essence', 1000), Fluid.of('sophisticatedcore:xp_still', 1000)).id(`${MIXING_PREFIX}memory_essence_from_experience`)
     //event.recipes.create.mixing(Fluid.of('pneumaticcraft:memory_essence', 1000), Fluid.of('cofh_core:experience', 1000)).id(`${MIXING_PREFIX}memory_essence_from_essence_of_knowledge`) //<M-R> 
     //event.recipes.create.mixing(Fluid.of('pneumaticcraft:memory_essence', 1000), Fluid.of('industrialforegoing:essence', 1000)).id(`${MIXING_PREFIX}memory_essence_from_essence`) //<M-R> 
