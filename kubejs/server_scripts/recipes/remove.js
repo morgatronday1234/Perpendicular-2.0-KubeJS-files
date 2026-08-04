@@ -31,13 +31,15 @@ ServerEvents.recipes(event => {
     ///essentials:fertile_soil/, //<M-R>
 
     // Remove some IF infinity items
-    'industrialforegoing:dissolution_chamber/infinity_hammer',
+    /* //<M-R> 
+     industrialforegoing:dissolution_chamber/infinity_hammer',
     'industrialforegoing:dissolution_chamber/infinity_trident',
     'industrialforegoing:dissolution_chamber/infinity_launcher',
     'industrialforegoing:dissolution_chamber/infinity_nuke',
+    */
     
     // New recipe for mob imprisonment tool
-    'industrialforegoing:mob_imprisonment_tool',
+    //'industrialforegoing:mob_imprisonment_tool', //<M-R> 
 
     // Remove chunkloader blocks
     'pneumaticcraft:chunkloader_upgrade',
@@ -59,9 +61,11 @@ ServerEvents.recipes(event => {
 
     // Gears
     'enderio:iron_gear',
+    /* //<M-R> 
     'industrialforegoing:diamond_gear',
     'industrialforegoing:gold_gear',
     'industrialforegoing:iron_gear',
+    *?
 
     // Crossroads materials
     /* //<M-R>
@@ -231,7 +235,7 @@ ServerEvents.recipes(event => {
 
     // Rope
     'beautify:rope',
-    'bbb:rope',
+    //'bbb:rope', //<M-R>
     //'meadow:climbing_rope_topmount', //<M-R>
 
     // Misc decor
@@ -286,11 +290,11 @@ ServerEvents.recipes(event => {
     */
     // Rubber
     /* //<M-R>
-    'thermal:rubber_3', //<M-R>
-    'thermal:rubber_from_vine', //<M-R>
-    'thermal:rubber_from_dandelion', //<M-R>
-    */
+    'thermal:rubber_3',
+    'thermal:rubber_from_vine', 
+    'thermal:rubber_from_dandelion',
     'industrialforegoing:dryrubber',
+    */
 
     // Silver equipment //<M-R>
     /*'eidolon:silver_helmet',
@@ -429,7 +433,7 @@ ServerEvents.recipes(event => {
 
     // Laser drill
     // each catalyst can support only one type of entity, so original recipe needs to be removed
-    'industrialforegoing:laser_drill_fluid/ether_gas',
+    //'industrialforegoing:laser_drill_fluid/ether_gas', //<M-R>
 
   ].forEach((recipeID) => event.remove({id: recipeID}));
 
