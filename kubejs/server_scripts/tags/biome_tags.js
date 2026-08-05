@@ -117,18 +117,18 @@ ServerEvents.tags("worldgen/biome", (event) => {
   //event.remove('somemoreblocks:generates_tiny_cactus', '#minecraft:is_forest') //<M-R>
 
   // Add BWG biomes to Spelunkery feature placement
-  /* //<M-R>
+
   event.add('spelunkery:has_desert_noise', '#c:is_desert')
   event.add('spelunkery:has_end_noise', '#nullscape:all_nullscape_biomes')
   event.add('spelunkery:has_stone_noise', [
       '#ars_nouveau:archwood_biome',
       '#autumnity:has_structure/maple_hut',
       '#biomeswevegone:overworld',
-      'neapolitan:strawberry_fields',
+      //'neapolitan:strawberry_fields', //<M-R>
       '#perpendicular:river_redux_biomes'
   ])
-  event.add('spelunkery:has_swamp_noise', '#forge:is_swamp')
-  */
+  event.add('spelunkery:has_swamp_noise', '#c:is_swamp')
+
 
   // Add BWG biomes to Twigs feature placement
   event.add('twigs:spawns_pebble', [
