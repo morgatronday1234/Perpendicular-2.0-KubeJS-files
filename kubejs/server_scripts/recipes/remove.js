@@ -43,10 +43,10 @@ ServerEvents.recipes(event => {
 
     // Remove chunkloader blocks
     'pneumaticcraft:chunkloader_upgrade',
-    'ae2:network/blocks/spatial_anchor',
+    'ae2:spatial_anchor',
 
     // Gating flux blocks behind steel
-    'fluxnetworks:fluxblock',
+    'fluxnetworks:flux_block',
 
     // -----------------
     // Duplicate recipes
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
     //'aether:aether_saddle', //<M-R>
     //'essentials:name_tag', //<M-R>
     //'essentials:piston', //<M-R>
-    'spelunkery:leather', // Use salt for jerky instead
+    //'spelunkery:leather', // Use salt for jerky instead //<M-R>
     'minecraft:gunpowder',
 
     // Gears
@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     'enderio:sag_milling/wheat',
     'enderio:alloy_smelting/cake_base',
     'enderio:alloy_smelting/cookie',
-    'refurbished_furniture:combining/wheat_flour',
+    //'refurbished_furniture:combining/wheat_flour', //<M-R>
 
     // Dough
     //'refurbished_furniture:dough', //<M-R>
@@ -147,15 +147,16 @@ ServerEvents.recipes(event => {
     //'v_slab_compat:spelunkery/rock_salt_stonecutter', //<M-R>
 
     // Knives
+    /* //<M-R>
     'aquaculture:wooden_fillet_knife',
     'aquaculture:stone_fillet_knife',
     'aquaculture:iron_fillet_knife',
     'aquaculture:gold_fillet_knife',
     'aquaculture:diamond_fillet_knife',
-    'refurbished_furniture:knife',
+    //'refurbished_furniture:knife',
 
-    // MrCrayfish cutting board recipes //<M-R>
-    /*/refurbished_furniture:slicing/,
+    // MrCrayfish cutting board recipes
+    /refurbished_furniture:slicing/,
     'refurbished_furniture:combining/glow_berry_jam_toast',
     'refurbished_furniture:combining/sweet_berry_jam_toast',
     'refurbished_furniture:combining/raw_meatlovers_pizza',
@@ -164,7 +165,7 @@ ServerEvents.recipes(event => {
     */
 
     // Meadow woodcutting recipes
-    /meadow:wood_cutter/,
+    // /meadow:wood_cutter/, //<M-R>
 
     // Storage blocks
     'vinery:apple_bag',
