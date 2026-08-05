@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
     //'aether:aether_saddle', //<M-R>
     //'essentials:name_tag', //<M-R>
     //'essentials:piston', //<M-R>
-    //'spelunkery:leather', // Use salt for jerky instead //<M-R>
+    'spelunkery:leather', // Use salt for jerky instead
     'minecraft:gunpowder',
 
     // Gears
