@@ -101,20 +101,21 @@ ServerEvents.tags("worldgen/biome", (event) => {
   event.add('quark:has_fallen_mangrove', 'minecraft:mangrove_swamp')
 
   // Add more BWG biomes to Some More Blocks feature placement
-  /* //<M-R>
   event.add('somemoreblocks:generates_tiny_cactus', '#c:is_desert')
   event.add('somemoreblocks:generates_small_lily_pads', [
+      /*
       'biomeswevegone:bayou',
       'biomeswevegone:crag_gardens',
       'biomeswevegone:cypress_swamplands',
       'biomeswevegone:fragment_jungle',
       'biomeswevegone:tropical_rainforest',
       'biomeswevegone:white_mangrove_marshes'
+      */
   ])
-  */
+  
 
   // Stop Some More Blocks tiny cactuses from spawning in forests
-  //event.remove('somemoreblocks:generates_tiny_cactus', '#minecraft:is_forest') //<M-R>
+  event.remove('somemoreblocks:generates_tiny_cactus', '#minecraft:is_forest')
 
   // Add BWG biomes to Spelunkery feature placement
 
