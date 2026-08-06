@@ -1,9 +1,5 @@
 // priority: 10
 
-// Reasons why something is commented out:
-// <M-R> == A mod was removed/not in pack, And this line is not-longer applicable.
-// <F-R> == Something that was from Forge, And is now something diffrent in Neoforge.
-
 ServerEvents.recipes(event => {
 
   const RECIPE_PREFIX = 'perpendicular:crafting/';
