@@ -1,6 +1,5 @@
 // priority: 100
 
-
 //Perpare for comment spam. -Morg
 ServerEvents.recipes(event => {
   // By recipe ID
@@ -19,6 +18,9 @@ ServerEvents.recipes(event => {
     // -----------------
     // Nerfs
     // -----------------
+
+    //This thing is really cool, But for every one placed it creates a dim just named a UUID (Like how compact did.); And it has alot of rendering crashes last I checked.
+    'ars_nouveau:planarium',
     
     // Disable oxidization through smelting
     ///essentials:copper_oxidize/, //<M-R>
@@ -306,8 +308,8 @@ ServerEvents.recipes(event => {
     */
     // Milk
     'productivebees:milk_bucket',
-    //'neapolitan:milk/milk_bottles_from_bucket', //<M-R>
-    //'neapolitan:milk/milk_bucket_from_bottles', //<M-R>
+    'neapolitan:milk/milk_bottles_from_bucket',
+    'neapolitan:milk/milk_bucket_from_bottles',
     'create:filling/compat/farmersdelight/milk_bottle',
     'brewinandchewin:filling/create/milk_bottle',
     'productivebees:bottler/milk_bottle',
