@@ -33,7 +33,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
     'biomeswevegone:rose_fields',
     */
     'minecraft:meadow',
-    //'neapolitan:strawberry_fields' //<M-R>
+    'neapolitan:strawberry_fields'
   ])
   
   // Create new tag to actually properly place BWG snowy biomes in a #snowy tag
@@ -125,7 +125,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
       '#ars_nouveau:archwood_biome',
       '#autumnity:has_structure/maple_hut',
       '#biomeswevegone:overworld',
-      //'neapolitan:strawberry_fields', //<M-R>
+      'neapolitan:strawberry_fields', 
       '#perpendicular:river_redux_biomes'
   ])
   event.add('spelunkery:has_swamp_noise', '#c:is_swamp')
@@ -167,10 +167,8 @@ ServerEvents.tags("worldgen/biome", (event) => {
   // Make Enderman Overhaul enderman spawn in more biomes
   event.add('endermanoverhaul:cave_spawns', '#c:is_cave')
   event.add('endermanoverhaul:flower_field_spawns', [
-    /* //<M-R>
-    '#biomeswevegone:floral',
+    //'#biomeswevegone:floral', //<M-R>
     'neapolitan:strawberry_fields'
-    */
   ])
 
   // Add BWG flower biomes to Friends & Foes mob spawns
@@ -407,7 +405,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
       //'#autumnity:has_structure/maple_hut', //<M-R>
       //'#biomeswevegone:overworld', //<M-R>
       '#c:is_cave', 
-      //'neapolitan:strawberry_fields', //<M-R>
+      'neapolitan:strawberry_fields',
       '#perpendicular:river_redux_biomes'
   ])
 
@@ -421,10 +419,8 @@ ServerEvents.tags("worldgen/biome", (event) => {
   event.add('nova_structures:collections/birch_forests', '#perpendicular:is_birch_forest')
   //event.add('nova_structures:collections/cherry_forests', 'biomeswevegone:sakura_grove') //<M-R>
   event.add('nova_structures:collections/floral', [
-    /* //<M-R>
-    '#biomeswevegone:floral',
+    //'#biomeswevegone:floral', //<M-R>
     'neapolitan:strawberry_fields'
-    */
   ])
   event.add('nova_structures:collections/giant_taigas', [ // they're talking about warm taigas here + redwood thicket
     /* //<M-R>
