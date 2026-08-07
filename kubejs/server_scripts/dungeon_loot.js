@@ -40,10 +40,10 @@ LootJS.modifiers((event) => {
         'enderio:dark_steel_sword',
         // Sophisticated Backpacks
         
-        //'sophisticatedbackpacks:backpack', //Yall are evil for diableding these, At least let us have the basic ones... Get disabled-disabled lol.
-        //'sophisticatedbackpacks:copper_backpack',
-        'sophisticatedbackpacks:iron_backpack',
-        'sophisticatedbackpacks:gold_backpack'
+        'sophisticatedbackpacks:backpack', //Yall are evil for diableding these, At least let us have the basic ones... Get disabled-disabled lol.
+        'sophisticatedbackpacks:copper_backpack',
+        //'sophisticatedbackpacks:iron_backpack',
+        //'sophisticatedbackpacks:gold_backpack'
     ]));
 
     event.addTableModifier('minecraft:chests/simple_dungeon').pool((p) => {
