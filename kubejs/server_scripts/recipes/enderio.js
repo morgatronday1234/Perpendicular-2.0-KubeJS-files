@@ -1,4 +1,5 @@
 // priority: 10
+
 ServerEvents.recipes(event => {
 
     // -----------------
@@ -6,20 +7,18 @@ ServerEvents.recipes(event => {
     // -----------------
 
     function sagMill(input, outputs, energy, recipeID, bonusType) {
-        if (!bonusType) {
-            bonusType = SagMillBonus.MULTIPLY_OUTPUT
-        }
+        (!bonusType)? bonusType=SagMillBonus.MULTIPLY_OUTPUT : bonusType=bonusType;
+        
 
         let outputsbuffer = []
         outputs.forEach(output => {
-            if (!output.count) {
-                output.count = 1
-            }
+            (!output.count)? output.count=1 : output.count=output.count;
+            (!output.nbt)? output.nbt={} : output.nbt=output.nbt;
 
             if (output.chance) {
-                outputsbuffer.push(SagMillOutput.of(`${output.count}x ${output.item}`, output.chance))
+                outputsbuffer.push(SagMillOutput.of(Item.of(output.item, output.count, output.nbt), output.chance)) //SagMillOutput.of(`${output.count}x ${output.item}`, output.chance))
             } else {
-                outputsbuffer.push(SagMillOutput.of(`${output.count}x ${output.item}`))
+                outputsbuffer.push(SagMillOutput.of(Item.of(output.item, output.count, output.nbt))) //outputsbuffer.push(SagMillOutput.of(`${output.count}x ${output.item}`))
             }
         })
 
@@ -27,7 +26,7 @@ ServerEvents.recipes(event => {
          outputsbuffer,
          input,
          energy,
-         SagMillBonus.NONE
+         bonusType
         ).id(`perpendicular:sag_milling/${recipeID}`)
 
         //event.custom(recipe).id(`perpendicular:sag_milling/${recipeID}`)
@@ -39,20 +38,20 @@ ServerEvents.recipes(event => {
     // Salt
     sagMill('galosphere:pink_salt_shard', [{item: 'spelunkery:salt', count: 2}, {item: 'spelunkery:salt', chance: 0.75}], 2400, 'salt')
     
+
+    //Shitpost item. With the lack of crossroads I wanted too add something dumb.
+    sagMill("oritech:banana", [{item:"oritech:banana", count:1, chance:0.5, nbt:{"minecraft:lore": [{"color":"#77EBC0","text":"Delta Periphery; Do not Touch, or Eat."}],"minecraft:custom_name": {"color":"#77EBC0","italic":false,"text":"Δ-0012"},"minecraft:rarity": "epic", "aeronautics:levitating":{}}}], 20000, "delta-0012")
+    
     // -----------------
     // Alloy Smelting
     // -----------------
 
     function alloySmelting(inputs, output, energy, xp, recipeID) {
-        if (!output.count) {
-            output.count = 1
-        }
+        (!output.count)? output.count=1 : output.count=output.count;
 
         let inputsbuffer = []
         inputs.forEach(input => {
-            if (!input.count) {
-                input.count = 1
-            }
+            (!input.count)? input.count=1 : input.count=input.count;
         
             inputsbuffer.push(Ingredient.of(input.item, input.count))
         })
